@@ -1,0 +1,10 @@
+ChessBot/
+├── assets/             // For piece images and other assets
+├── include/            // Header files for engine and UI modules
+├── src/
+│   ├── main.cpp        // Your main function with the SFML loop
+│   ├── engine.cpp      // Chess engine (bitboards, move generation, etc.)
+│   ├── ui.cpp          // Additional UI functions if needed
+├── .gitignore
+├── CMakeLists.txt
+└── README.md
