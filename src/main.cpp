@@ -1,7 +1,14 @@
+#include "Game.h"
 #include <iostream>
-using namespace std;
 
-int main()
-{
-    cout << "Hello World!" << endl;
+int main() {
+    try {
+        Game chessGame;
+        chessGame.run();
+    } catch (const std::exception& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+        return 1;
+    }
+    
+    return 0;
 }
